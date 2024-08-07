@@ -1,1 +1,0 @@
-# laravel_blog_project
