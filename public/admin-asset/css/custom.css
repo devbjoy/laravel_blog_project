@@ -1,0 +1,67 @@
+.w-4 {
+  width: 1rem;
+}
+.h-4 {
+  height: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+
+.dropzone {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(0, 135, 247);
+  border-image: none;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.toggle-container{
+  width: 100%;
+}
+.tab-trigger{
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom:.2px solid gray;
+}
+.tab-trigger ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  list-style-type: none;
+}
+.tab-trigger ul li{
+  padding: 8px 12px;
+  border: .5px darkred;
+  cursor: pointer;
+}
+
+.tab-trigger ul li a{
+  color: black;
+  font-size: 18px;
+}
+.tab-trigger ul li.active{
+  background: gray;
+  color: white;
+}
+.tab-trigger ul li.active a{
+  color: white;
+}
+
+.tab-container{
+/*  border: 1px solid;*/
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.tab-content-box{
+  display: none;
+}
+/*.tab-content-box:first-child{
+  display: block;
+}*/
